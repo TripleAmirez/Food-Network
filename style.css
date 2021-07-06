@@ -1,3 +1,122 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#orderFood,#about,.recipie-box,.social-box{
+    display: flex;
+}
+
+#orderFood{
+    background-image: url(./images/shapes/Group\ 8450.png);
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    background-position-x: 700px;
+    background-position-y: -2px;
+    margin: 40px 30px;
+}
+
+.half-width{
+    width: 50%;
+}
+
+.left-padding{
+    padding-left: 60px;
+}
+
+.half-width h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.order_btn,.contact_btn{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to left,tomato,sandybrown);
+    padding: 15px 30px;
+    border-radius: 25px;
+}
+
+#orderFood p{
+    color: gray;
+    padding-bottom: 20px;
+}
+
+
+
+.order-img img{
+    width: 80%;
+}
+
+#about{
+    background-image: url(./images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.about-img{
+    padding: 70px 50px 70px 50px;
+    height: 400px;
+}
+
+#about p{
+    padding: 0 150px 50px 0;
+}
+
+.recipie{
+    width: 25%;
+    height: 33%;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 10px 10px 40px rgba(0  , 0, 0, .1);
+}
+
+.recipie-box{
+    padding: 0 100px;
+    justify-content: space-between;
+}
+
+#recipies h2{
+    text-align: center;
+    color: gray;
+}
+
+.recipie-para{
+    width: 45%;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+.social-box{
+    margin: 100px 100px;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, .1);
+}
+
+.youtube h1,.instagram h1,.dribble h1{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.youtube p,.instagram p,.dribble p{
+    margin-top: 0;
+    font-size: 15px;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+footer p{
+    color: white;
 }
