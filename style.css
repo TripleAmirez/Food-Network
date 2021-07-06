@@ -62,27 +62,34 @@ body{
     height: 400px;
 }
 
+.about-box{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+
+.more{
+    text-decoration: none;
+    color: tomato;
+}
+
 #about p{
     padding: 0 150px 50px 0;
 }
 
 .recipie{
     width: 25%;
-    height: 33%;
+    height: 250px;
     border-radius: 10px;
-    padding: 15px;
-    box-shadow: 10px 10px 40px rgba(0  , 0, 0, .1);
+    padding: 12px;
+    box-shadow: 10px 10px 40px rgba(0  , 0, 0, .2);
 }
 
 .recipie-box{
-    padding: 0 100px;
+    padding: 0 150px;
     justify-content: space-between;
 }
 
-#recipies h2{
-    text-align: center;
-    color: gray;
-}
 
 .recipie-para{
     width: 45%;
@@ -90,12 +97,15 @@ body{
     padding: 25px 0;
 }
 
+#social{
+    padding-top: 150px;
+}
 .social-box{
     margin: 100px 100px;
     justify-content: space-between;
     border-radius: 10px;
     padding: 15px;
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, .1);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, .2);
 }
 
 .youtube h1,.instagram h1,.dribble h1{
